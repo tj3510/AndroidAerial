@@ -35,6 +35,8 @@ class ScreenSaverService : DreamService() {
         }
 
         exoPlayer = SimpleExoPlayer.Builder(this).build()
+        //Repeat mode set to true
+        exoPlayer.repeatMode = SimpleExoPlayer.REPEAT_MODE_ALL
         playerView.player = exoPlayer
 
         if (filesList.isEmpty()){

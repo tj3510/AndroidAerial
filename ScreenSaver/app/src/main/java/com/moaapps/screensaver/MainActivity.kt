@@ -3,45 +3,38 @@ package com.moaapps.screensaver
 import android.Manifest
 import android.app.Activity
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
-import android.os.Environment
 import android.util.Log
-import android.widget.Button
 import android.widget.TextView
-import lib.folderpicker.FolderPicker
-import pub.devrel.easypermissions.EasyPermissions
-import java.io.File
 
-import java.net.URLConnection
+import android.content.ActivityNotFoundException
+import android.os.Build
+import android.os.Environment
+import android.os.Environment.getExternalStorageDirectory
+import android.view.View
+import androidx.annotation.RequiresApi
+import androidx.core.app.ActivityCompat.startActivityForResult
+import java.io.File
+import androidx.core.app.ActivityCompat.startActivityForResult
+import pub.devrel.easypermissions.EasyPermissions
+import androidx.core.content.ContextCompat
+
+
+
 
 
 class MainActivity : Activity() {
 
+    private val TAG: String = MainActivity::class.java.getName()
+
+    @RequiresApi(Build.VERSION_CODES.R)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
 
 
-//        findViewById<Button>(R.id.select_folder)
-//            .setOnClickListener {
-////                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
-////                    val i = Intent(Intent.ACTION_OPEN_DOCUMENT_TREE)
-////                    i.addCategory(Intent.CATEGORY_DEFAULT)
-////                    startActivityForResult(Intent.createChooser(i, "Choose directory"), 9999)
-////                }
-//
-//                if(EasyPermissions.hasPermissions(this, Manifest.permission.READ_EXTERNAL_STORAGE)){
-//                    val intent = Intent(this, FolderPicker::class.java)
-//                    startActivityForResult(intent, 9999)
-//                }else{
-//                    EasyPermissions.requestPermissions(this, "We need to access storage", 123, Manifest.permission.READ_EXTERNAL_STORAGE)
-//                }
-//            }
-
-
-        if(EasyPermissions.hasPermissions(this, Manifest.permission.READ_EXTERNAL_STORAGE)){
+        if(EasyPermissions.hasPermissions(this, Manifest.permission.MANAGE_EXTERNAL_STORAGE)){
             val file = File(Environment.getExternalStorageDirectory(),"Screensaver")
             Log.d("TAG", "onCreate: ${file.absolutePath}")
             findViewById<TextView>(R.id.directory).text = "Selected Folder: ${file.absolutePath}"
@@ -57,10 +50,8 @@ class MainActivity : Activity() {
                 findViewById<TextView>(R.id.directory).text = "Folder not found"
             }
         }else{
-            EasyPermissions.requestPermissions(this, "We need to access storage", 123, Manifest.permission.READ_EXTERNAL_STORAGE)
+            EasyPermissions.requestPermissions(this, "We need to access storage", 123, Manifest.permission.MANAGE_EXTERNAL_STORAGE)
         }
-        
-
 
     }
 
@@ -72,4 +63,6 @@ class MainActivity : Activity() {
             findViewById<TextView>(R.id.directory).text = folderLocation
         }
     }
+
+
 }
