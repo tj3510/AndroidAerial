@@ -82,7 +82,7 @@
             android:text="Confirm"/>
 
         <Button
-            android:id="@+id/test_video_button"
+            android:id="@+id/test_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="5dp"

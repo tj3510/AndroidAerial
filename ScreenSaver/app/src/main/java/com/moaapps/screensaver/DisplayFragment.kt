@@ -20,10 +20,11 @@ abstract class DisplayFragment: Fragment() {
 
 
     companion object{
-        lateinit var fileSelectorDir: File
+        lateinit var selectorDir: File
         lateinit var contentDir: File
         var selectorDirList: Array<File>? = null
         var contentDirList: Array<File>? = null
+        val defaultStorageDir = "storage/emulated/0/"
     }
 
     //Holders
@@ -40,32 +41,23 @@ abstract class DisplayFragment: Fragment() {
     lateinit var confirmButton: Button
     lateinit var openButton: Button
 
-    //Data Structures
-    val fileDirStack = ArrayDeque<File>()
 
 
     @RequiresApi(Build.VERSION_CODES.R)
     fun createFilePanels(isContentDir: Boolean){
 
         updateDirList(isContentDir)
-
-
         val dirList = if(isContentDir) contentDirList else selectorDirList
-
         fileDisplayHolder.removeAllViews()
 
         if(dirList!!.isNotEmpty()){
 
             dirList.forEach { file ->
-
-
                 val nView = layoutInflater.inflate(R.layout.file_name_panel, fileDisplayHolder, false)
-
 
                 val fileIcon = nView.findViewById<ImageView>(R.id.file_icon)
                 val fileName = nView.findViewById<TextView>(R.id.file_name)
                 val fileSize = nView.findViewById<TextView>(R.id.file_size)
-
 
                 setFileIcon(file, fileIcon)
                 fileName.text = file.name
@@ -86,16 +78,11 @@ abstract class DisplayFragment: Fragment() {
                             view.setBackgroundResource(R.drawable.file_name_background_unfocused)
                         }
                     }
-
                     nView.setOnClickListener {
                         openButton.requestFocus()
                     }
-
-
                 }
-
             }
-
         }
     }
 
@@ -105,7 +92,7 @@ abstract class DisplayFragment: Fragment() {
         val drawable: Drawable?
         val extension = file.extension
 
-        val videoExtensions = arrayOf(".mov", ".mp4")
+        val videoExtensions = arrayOf("mov", "mp4")
 
         when{
             videoExtensions.contains(extension) -> {
@@ -123,28 +110,34 @@ abstract class DisplayFragment: Fragment() {
     @RequiresApi(Build.VERSION_CODES.R)
     fun backButtonFunctionality(){
 
-        if(fileDirStack.size > 1) {
+        val parentFile = selectorDir.parentFile
+        val parentListFiles = parentFile?.listFiles()
 
-            fileDirStack.removeLast()
+
+        if(parentFile != null && parentListFiles != null && parentListFiles.isNotEmpty()){
+            contentDir = parentFile
+
             (requireActivity() as MainActivity).updateSelectorFragment(true)
             (requireActivity() as MainActivity).updateContentFragment(true)
 
-            Log.d("DevStuff", fileDirStack.toString())
-
+            Log.d("DevStuff", parentFile.absolutePath)
         } else {
             Toast.makeText(requireContext(), "This is the root directory!", Toast.LENGTH_SHORT).show()
         }
-
     }
 
 
     fun resetContent(){
-        contentDir = selectorDirList!!.get(0)
+
+        if(selectorDirList!!.size != 0){
+            contentDir = selectorDirList!!.get(0)
+        }
+
     }
 
     fun updateSelectorDir(){
-        fileSelectorDir =  fileDirStack.last()
-        Log.d("DevStuff", "Dir Stack: " + fileDirStack.toString())
+        selectorDir =  File(contentDir.absolutePath)
+        Log.d("DevStuff", "Dir Stack: " + selectorDir.absolutePath)
     }
 
     @SuppressLint("SetTextI18n")
@@ -153,7 +146,7 @@ abstract class DisplayFragment: Fragment() {
         if(isFolderContent){
             folderContentCurrentDir.text = contentDir.name + "'s Folder"
         } else {
-            fileSelectorCurrentDir.text = fileSelectorDir.absolutePath
+            fileSelectorCurrentDir.text = selectorDir.absolutePath
         }
 
     }
@@ -172,7 +165,7 @@ abstract class DisplayFragment: Fragment() {
                 showScrollView()
             }
         } else {
-            selectorDirList = fileSelectorDir.listFiles()
+            selectorDirList = selectorDir.listFiles()
 
             if (selectorDirList == null || selectorDirList!!.size == 0) {
                 Log.d("DevStuff", "cDir is empty!")

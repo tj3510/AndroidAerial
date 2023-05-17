@@ -733,6 +733,7 @@ color primary_text_disabled_material_dark
 color primary_text_disabled_material_light
 color ripple_material_dark
 color ripple_material_light
+color screen_background
 color search_opaque
 color secondary_text_default_material_dark
 color secondary_text_default_material_light
@@ -1400,6 +1401,7 @@ drawable lb_text_dot_one_small
 drawable lb_text_dot_two
 drawable lb_text_dot_two_small
 drawable movie
+drawable notice_panel
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -1543,6 +1545,7 @@ id content
 id contentPanel
 id content_container
 id content_fragment
+id content_fragment_container
 id content_frame
 id content_scroll_view_file_selector
 id content_scroll_view_folder_content
@@ -1633,7 +1636,6 @@ id extra_badge
 id fade_out_edge
 id file_icon
 id file_name
-id file_selecter_fragment
 id file_selecter_holder
 id file_size
 id fill
@@ -1642,7 +1644,6 @@ id fill_vertical
 id fit
 id fixed_height
 id fixed_width
-id folder_content_fragment
 id folder_content_holder
 id foreground_container
 id forever
@@ -1793,6 +1794,7 @@ id row_header
 id row_header_description
 id scale_frame
 id screen
+id screensaver_dir
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
@@ -1810,13 +1812,16 @@ id search_voice_btn
 id secondary_controls_dock
 id select_dialog_listview
 id selected
+id selector_fragment_container
 id separate_time
 id separator
 id settings_button
+id settings_fragment_container
 id shortcut
 id showCustom
 id showHome
 id showTitle
+id show_clock
 id spacer
 id special_effects_controller_view_tag
 id spherical_gl_surface_view
@@ -1838,7 +1843,7 @@ id tag_screen_reader_focusable
 id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
-id test_video_button
+id test_button
 id text
 id text2
 id textClock
@@ -2047,6 +2052,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout selector_fragment
+layout settings_fragment
 layout support_simple_spinner_dropdown_item
 layout video_surface_fragment
 mipmap ic_launcher

@@ -5,23 +5,30 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    tools:deviceIds="tv"
-    android:background="#494949"
+    android:background="@color/screen_background"
     tools:ignore="MergeRootFrame"
     android:orientation="horizontal"
     android:gravity="center">
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/file_selecter_fragment"
+    <FrameLayout
+        android:id="@+id/selector_fragment_container"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="0.5"/>
 
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/folder_content_fragment"
+    <FrameLayout
+        android:id="@+id/content_fragment_container"
         android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="0.5"/>
+
+
+    <FrameLayout
+        android:id="@+id/settings_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
 
 
 </LinearLayout>

@@ -8,8 +8,16 @@
         "source": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-main-21:/drawable/video_icon.png"
     },
     {
+        "merged": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-merged_res-19:/drawable_notice_panel.xml.flat",
+        "source": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-main-21:/drawable/notice_panel.xml"
+    },
+    {
         "merged": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-merged_res-19:/layout_activity_main.xml.flat",
         "source": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-main-21:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-merged_res-19:/layout_settings_fragment.xml.flat",
+        "source": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-main-21:/layout/settings_fragment.xml"
     },
     {
         "merged": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-merged_res-19:/layout_selector_fragment.xml.flat",
@@ -36,12 +44,12 @@
         "source": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-main-21:/drawable/file_name_background_unfocused.xml"
     },
     {
-        "merged": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-merged_res-19:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-main-21:/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-merged_res-19:/layout_screen_saver_layout.xml.flat",
         "source": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-main-21:/layout/screen_saver_layout.xml"
+    },
+    {
+        "merged": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-merged_res-19:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-main-21:/mipmap-xhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-merged_res-19:/mipmap-hdpi_ic_launcher.png.flat",
@@ -54,6 +62,10 @@
     {
         "merged": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-merged_res-19:/drawable_file_name_background_focused.xml.flat",
         "source": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-main-21:/drawable/file_name_background_focused.xml"
+    },
+    {
+        "merged": "com.moaapps.screensaver.app-merged_res-19:/layout_content_fragment.xml.flat",
+        "source": "com.moaapps.screensaver.app-main-21:/layout/content_fragment.xml"
     },
     {
         "merged": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-merged_res-19:/drawable_file_icon_e.png.flat",
@@ -86,10 +98,6 @@
     {
         "merged": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-merged_res-19:/drawable_button_down.xml.flat",
         "source": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-main-21:/drawable/button_down.xml"
-    },
-    {
-        "merged": "com.moaapps.screensaver.app-merged_res-19:/layout_file_name_panel.xml.flat",
-        "source": "com.moaapps.screensaver.app-main-21:/layout/file_name_panel.xml"
     },
     {
         "merged": "/home/tyler/.gradle/daemon/7.5/com.moaapps.screensaver.app-merged_res-19:/drawable_folder_icon_e.png.flat",

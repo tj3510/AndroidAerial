@@ -6,6 +6,8 @@
     <color name="selected_background">#ffaa3f</color>
     <color name="default_background">#3d3d3d</color>
 
+    <color name="screen_background">#000000</color>
+
     <color name="file_name_panel_background_focused">#7C7C7C</color>
     <color name="file_name_panel_background_unfocused">#4D4D4D</color>
 

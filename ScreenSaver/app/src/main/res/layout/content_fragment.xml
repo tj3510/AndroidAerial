@@ -29,13 +29,13 @@
         android:textSize="15sp"
         android:text="No Files In Directory"
         android:visibility="gone"
-        android:layout_weight="0.9"/>
+        android:layout_weight="0.8"/>
 
     <ScrollView
         android:id="@+id/content_scroll_view_folder_content"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.9">
+        android:layout_weight="0.8">
 
         <LinearLayout
             android:id="@+id/folder_content_holder"
@@ -44,10 +44,22 @@
             android:orientation="vertical">
 
 
-
-
         </LinearLayout>
 
     </ScrollView>
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/screensaver_dir"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center|bottom"
+        android:gravity="center"
+        android:textSize="13sp"
+        android:background="@drawable/notice_panel"
+        android:padding="10dp"
+        android:text="Screensaver Dir: some/file/path"
+        android:layout_weight="0.1"/>
 
 </LinearLayout>

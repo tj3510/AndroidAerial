@@ -47,7 +47,7 @@ class ScreenSaverService : DreamService() {
 
             prefs = getSharedPreferences("user", Context.MODE_PRIVATE)
 
-            dir = prefs.getString("dir", "storage")!!
+            dir = prefs.getString("dir", DisplayFragment.defaultStorageDir)!!
 
             val file = File(dir)
 
