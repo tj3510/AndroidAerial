@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/file_name_background_unfocused"
+    android:paddingHorizontal="20dp"
+    android:paddingVertical="5dp"
+    android:layout_margin="20dp">
+
+
+
+    <ImageView
+        android:id="@+id/file_icon"
+        android:layout_width="@dimen/file_name_panel_icon_width"
+        android:layout_height="@dimen/file_name_panel_icon_height"
+        android:text="SomeFolderName"
+        android:textSize="20sp"
+        android:src="@drawable/file_icon"
+        android:layout_gravity="start|center"/>
+
+
+    <TextView
+        android:id="@+id/file_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SomeFolderName"
+        android:textSize="17sp" />
+
+
+
+    <TextView
+        android:id="@+id/file_size"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FileSize"
+        android:textSize="17sp"
+        android:layout_gravity="end|center"/>
+
+
+
+
+
+
+</FrameLayout>

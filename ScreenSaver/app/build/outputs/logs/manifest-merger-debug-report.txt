@@ -1,0 +1,316 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:2:1-55:12
+MERGED from [androidx.leanback:leanback:1.0.0] /home/tyler/.gradle/caches/transforms-3/b53691693d020cafcf2e8d58be31884a/transformed/leanback-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [pub.devrel:easypermissions:3.0.0] /home/tyler/.gradle/caches/transforms-3/c7417efa72a1ed499e8a91d748849797/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:2:1-19:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/tyler/.gradle/caches/transforms-3/be4c042c4ed6408c17bc42d8eea31353/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment-ktx:1.2.5] /home/tyler/.gradle/caches/transforms-3/7af1efd7498b3d460ea38e24811243a6/transformed/jetified-fragment-ktx-1.2.5/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.4.1] /home/tyler/.gradle/caches/transforms-3/7bbe9e4eac6154960dafe290a013bfeb/transformed/fragment-1.4.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/tyler/.gradle/caches/transforms-3/32cd4f7b5e95403004fceffa34a8a6ad/transformed/jetified-activity-ktx-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core-ktx:1.3.2] /home/tyler/.gradle/caches/transforms-3/6c51bd220a104651a637beb2cb85049f/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/tyler/.gradle/caches/transforms-3/9536e6074576ccb8ea584130a9d6214e/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/tyler/.gradle/caches/transforms-3/0e0e16413bc1368ef99d197984db1de7/transformed/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/tyler/.gradle/caches/transforms-3/574d0af926f3c787141df8d9cbab3298/transformed/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [lib.kashif:folderpicker:2.4] /home/tyler/.gradle/caches/transforms-3/35e68dcc6516b5fb40ba0a7d9e346804/transformed/jetified-folderpicker-2.4/AndroidManifest.xml:2:1-20:12
+MERGED from [com.google.android.exoplayer:exoplayer:2.12.2] /home/tyler/.gradle/caches/transforms-3/82aaee706dfd293aa6f019a2876e38f0/transformed/jetified-exoplayer-2.12.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/tyler/.gradle/caches/transforms-3/d67e7763c7c9f7996cded62dc975e075/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/tyler/.gradle/caches/transforms-3/a6a390c2d5d91d408f3ebac4b49770e6/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/tyler/.gradle/caches/transforms-3/8689d0db589a4ab4fc77bcdc889f88f2/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/tyler/.gradle/caches/transforms-3/f601e55f08d9a8c45f1463dc925bb5dd/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/tyler/.gradle/caches/transforms-3/86dc1899beea0752b5cfcfd5ca61c8a1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /home/tyler/.gradle/caches/transforms-3/b052207bf9312c63521154faaa1f2602/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.2.4] /home/tyler/.gradle/caches/transforms-3/743f189f928a361ad33a23040337d686/transformed/jetified-activity-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/tyler/.gradle/caches/transforms-3/83c518f6c33cb071ba9c00915721d12f/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/tyler/.gradle/caches/transforms-3/d22bed9e99edf0ed384ddbdfe3a9c1a1/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.12.2] /home/tyler/.gradle/caches/transforms-3/4a2eecbb58a7edac4a83d07d26a5edb2/transformed/jetified-exoplayer-ui-2.12.2/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/tyler/.gradle/caches/transforms-3/c2ce425b5b39c9dec47e9f75905fef4e/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /home/tyler/.gradle/caches/transforms-3/9891697fb8e0d8fc6d55dfe2c550e390/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/tyler/.gradle/caches/transforms-3/bc8b05aadeacdb3bc14004a92df0f8d7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/tyler/.gradle/caches/transforms-3/effb86755cb35b85db43a1b29fad8984/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/tyler/.gradle/caches/transforms-3/fd38e84b510412808585f72d1b653217/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/tyler/.gradle/caches/transforms-3/092eda76bbf7f1fbd1be0a14373b93fa/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.1] /home/tyler/.gradle/caches/transforms-3/9e4afa80ab1650f7e6e18bb8ab3baa86/transformed/media-1.0.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] /home/tyler/.gradle/caches/transforms-3/474d462dc62e32108fc7a77104058f42/transformed/core-1.3.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/tyler/.gradle/caches/transforms-3/649352a269038789cef58bd8ce890521/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.12.2] /home/tyler/.gradle/caches/transforms-3/e05c9d6682ff4313dcc5d6ba3aa2dbcc/transformed/jetified-exoplayer-dash-2.12.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.12.2] /home/tyler/.gradle/caches/transforms-3/0c065de50848d728faca372b42a81cf2/transformed/jetified-exoplayer-hls-2.12.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.12.2] /home/tyler/.gradle/caches/transforms-3/5de3c293b68911c829c8189c8aec0b2c/transformed/jetified-exoplayer-smoothstreaming-2.12.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.2] /home/tyler/.gradle/caches/transforms-3/357256439c1811bb0fd9063dfed02f62/transformed/jetified-exoplayer-core-2.12.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/tyler/.gradle/caches/transforms-3/b03a0e6d9548fd56ebf0a2b3f6cfb1da/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/tyler/.gradle/caches/transforms-3/9d4cf25347f6a53d0d3cd9a3f9d19b60/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/tyler/.gradle/caches/transforms-3/5fd7089bad3adf093b8844fabefca69f/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/tyler/.gradle/caches/transforms-3/d70479a204ebc4d968585f1342e57598/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/tyler/.gradle/caches/transforms-3/6bcbd6e8ae404a67131fcf07809c8106/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.2] /home/tyler/.gradle/caches/transforms-3/539c93f3d2eca4040677ad38f5c02964/transformed/jetified-exoplayer-extractor-2.12.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.2] /home/tyler/.gradle/caches/transforms-3/21dc053d2bbf2e7332cdd35425ba758f/transformed/jetified-exoplayer-common-2.12.2/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/tyler/.gradle/caches/transforms-3/69e5240ca6bc8233b4037a217cd1599b/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/tyler/.gradle/caches/transforms-3/72e6b0ec47b03602f4eb5550ebcc17ef/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/tyler/.gradle/caches/transforms-3/1d85c27981eb8be12cc5e2ff97a1d179/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/tyler/.gradle/caches/transforms-3/e4d3866fb4e24293263abe03a56eeaee/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/tyler/.gradle/caches/transforms-3/4650babcc572a4f48194ac31d4b3dd5d/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/tyler/.gradle/caches/transforms-3/f9e1569d9db427d6481fff2e6efb5ca9/transformed/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/tyler/.gradle/caches/transforms-3/691c126b165e49475025ccae46194395/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /home/tyler/.gradle/caches/transforms-3/cf799ce90b73e48775bcfa2d557dcac1/transformed/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/tyler/.gradle/caches/transforms-3/06d5ea1be41d0c7d557e0c5cb0a13e2f/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:2:1-55:12
+	package
+		INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:2:1-55:12
+		INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:2:1-55:12
+		INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:2:1-55:12
+		INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.MANAGE_EXTERNAL_STORAGE
+ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:9:5-82
+	android:name
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:9:22-79
+uses-feature#android.hardware.touchscreen
+ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:11:5-13:36
+	android:required
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:13:9-33
+	android:name
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:12:9-52
+uses-feature#android.software.leanback
+ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:14:5-16:35
+	android:required
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:16:9-32
+	android:name
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:15:9-49
+application
+ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:18:5-50:19
+MERGED from [pub.devrel:easypermissions:3.0.0] /home/tyler/.gradle/caches/transforms-3/c7417efa72a1ed499e8a91d748849797/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [pub.devrel:easypermissions:3.0.0] /home/tyler/.gradle/caches/transforms-3/c7417efa72a1ed499e8a91d748849797/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:11:5-17:19
+MERGED from [lib.kashif:folderpicker:2.4] /home/tyler/.gradle/caches/transforms-3/35e68dcc6516b5fb40ba0a7d9e346804/transformed/jetified-folderpicker-2.4/AndroidManifest.xml:11:5-18:19
+MERGED from [lib.kashif:folderpicker:2.4] /home/tyler/.gradle/caches/transforms-3/35e68dcc6516b5fb40ba0a7d9e346804/transformed/jetified-folderpicker-2.4/AndroidManifest.xml:11:5-18:19
+MERGED from [androidx.core:core:1.3.2] /home/tyler/.gradle/caches/transforms-3/474d462dc62e32108fc7a77104058f42/transformed/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] /home/tyler/.gradle/caches/transforms-3/474d462dc62e32108fc7a77104058f42/transformed/core-1.3.2/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/tyler/.gradle/caches/transforms-3/b03a0e6d9548fd56ebf0a2b3f6cfb1da/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/tyler/.gradle/caches/transforms-3/b03a0e6d9548fd56ebf0a2b3f6cfb1da/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] /home/tyler/.gradle/caches/transforms-3/474d462dc62e32108fc7a77104058f42/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:22:9-35
+	android:label
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:21:9-41
+	android:exported
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:24:9-32
+	tools:ignore
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:28:9-43
+	tools:targetApi
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:26:9-29
+	android:icon
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:20:9-43
+	android:allowBackup
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:19:9-35
+	android:banner
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:29:9-45
+	android:theme
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:25:9-49
+	android:dataExtractionRules
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:27:9-65
+	android:usesCleartextTraffic
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:23:9-44
+activity#com.moaapps.screensaver.MainActivity
+ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:30:9-39:20
+	android:screenOrientation
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:33:13-50
+	android:exported
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:32:13-36
+	android:theme
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:34:13-53
+	android:name
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:31:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LEANBACK_LAUNCHER
+ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:35:13-38:29
+action#android.intent.action.MAIN
+ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:36:17-69
+	android:name
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:36:25-66
+category#android.intent.category.LEANBACK_LAUNCHER
+ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:37:17-86
+	android:name
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:37:27-83
+service#com.moaapps.screensaver.ScreenSaverService
+ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:41:9-49:19
+	android:label
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:43:13-43
+	android:exported
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:42:13-36
+	android:permission
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:44:13-71
+	android:name
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:41:18-52
+intent-filter#action:name:android.service.dreams.DreamService+category:name:android.intent.category.DEFAULT
+ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:45:13-48:29
+action#android.service.dreams.DreamService
+ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:46:17-78
+	android:name
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:46:25-75
+category#android.intent.category.DEFAULT
+ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:47:17-76
+	android:name
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:47:27-73
+uses-sdk
+INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml
+INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml
+MERGED from [androidx.leanback:leanback:1.0.0] /home/tyler/.gradle/caches/transforms-3/b53691693d020cafcf2e8d58be31884a/transformed/leanback-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.leanback:leanback:1.0.0] /home/tyler/.gradle/caches/transforms-3/b53691693d020cafcf2e8d58be31884a/transformed/leanback-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [pub.devrel:easypermissions:3.0.0] /home/tyler/.gradle/caches/transforms-3/c7417efa72a1ed499e8a91d748849797/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [pub.devrel:easypermissions:3.0.0] /home/tyler/.gradle/caches/transforms-3/c7417efa72a1ed499e8a91d748849797/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/tyler/.gradle/caches/transforms-3/be4c042c4ed6408c17bc42d8eea31353/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /home/tyler/.gradle/caches/transforms-3/be4c042c4ed6408c17bc42d8eea31353/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.5] /home/tyler/.gradle/caches/transforms-3/7af1efd7498b3d460ea38e24811243a6/transformed/jetified-fragment-ktx-1.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment-ktx:1.2.5] /home/tyler/.gradle/caches/transforms-3/7af1efd7498b3d460ea38e24811243a6/transformed/jetified-fragment-ktx-1.2.5/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] /home/tyler/.gradle/caches/transforms-3/7bbe9e4eac6154960dafe290a013bfeb/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.4.1] /home/tyler/.gradle/caches/transforms-3/7bbe9e4eac6154960dafe290a013bfeb/transformed/fragment-1.4.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/tyler/.gradle/caches/transforms-3/32cd4f7b5e95403004fceffa34a8a6ad/transformed/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity-ktx:1.1.0] /home/tyler/.gradle/caches/transforms-3/32cd4f7b5e95403004fceffa34a8a6ad/transformed/jetified-activity-ktx-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core-ktx:1.3.2] /home/tyler/.gradle/caches/transforms-3/6c51bd220a104651a637beb2cb85049f/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] /home/tyler/.gradle/caches/transforms-3/6c51bd220a104651a637beb2cb85049f/transformed/jetified-core-ktx-1.3.2/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/tyler/.gradle/caches/transforms-3/9536e6074576ccb8ea584130a9d6214e/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.2.0] /home/tyler/.gradle/caches/transforms-3/9536e6074576ccb8ea584130a9d6214e/transformed/jetified-lifecycle-livedata-core-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/tyler/.gradle/caches/transforms-3/0e0e16413bc1368ef99d197984db1de7/transformed/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0] /home/tyler/.gradle/caches/transforms-3/0e0e16413bc1368ef99d197984db1de7/transformed/jetified-lifecycle-viewmodel-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/tyler/.gradle/caches/transforms-3/574d0af926f3c787141df8d9cbab3298/transformed/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.2.0] /home/tyler/.gradle/caches/transforms-3/574d0af926f3c787141df8d9cbab3298/transformed/jetified-lifecycle-runtime-ktx-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [lib.kashif:folderpicker:2.4] /home/tyler/.gradle/caches/transforms-3/35e68dcc6516b5fb40ba0a7d9e346804/transformed/jetified-folderpicker-2.4/AndroidManifest.xml:7:5-9:41
+MERGED from [lib.kashif:folderpicker:2.4] /home/tyler/.gradle/caches/transforms-3/35e68dcc6516b5fb40ba0a7d9e346804/transformed/jetified-folderpicker-2.4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.12.2] /home/tyler/.gradle/caches/transforms-3/82aaee706dfd293aa6f019a2876e38f0/transformed/jetified-exoplayer-2.12.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer:2.12.2] /home/tyler/.gradle/caches/transforms-3/82aaee706dfd293aa6f019a2876e38f0/transformed/jetified-exoplayer-2.12.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/tyler/.gradle/caches/transforms-3/d67e7763c7c9f7996cded62dc975e075/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /home/tyler/.gradle/caches/transforms-3/d67e7763c7c9f7996cded62dc975e075/transformed/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/tyler/.gradle/caches/transforms-3/a6a390c2d5d91d408f3ebac4b49770e6/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /home/tyler/.gradle/caches/transforms-3/a6a390c2d5d91d408f3ebac4b49770e6/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/tyler/.gradle/caches/transforms-3/8689d0db589a4ab4fc77bcdc889f88f2/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /home/tyler/.gradle/caches/transforms-3/8689d0db589a4ab4fc77bcdc889f88f2/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/tyler/.gradle/caches/transforms-3/f601e55f08d9a8c45f1463dc925bb5dd/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/tyler/.gradle/caches/transforms-3/f601e55f08d9a8c45f1463dc925bb5dd/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/tyler/.gradle/caches/transforms-3/86dc1899beea0752b5cfcfd5ca61c8a1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /home/tyler/.gradle/caches/transforms-3/86dc1899beea0752b5cfcfd5ca61c8a1/transformed/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/tyler/.gradle/caches/transforms-3/b052207bf9312c63521154faaa1f2602/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/tyler/.gradle/caches/transforms-3/b052207bf9312c63521154faaa1f2602/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.2.4] /home/tyler/.gradle/caches/transforms-3/743f189f928a361ad33a23040337d686/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] /home/tyler/.gradle/caches/transforms-3/743f189f928a361ad33a23040337d686/transformed/jetified-activity-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/tyler/.gradle/caches/transforms-3/83c518f6c33cb071ba9c00915721d12f/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /home/tyler/.gradle/caches/transforms-3/83c518f6c33cb071ba9c00915721d12f/transformed/coordinatorlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/tyler/.gradle/caches/transforms-3/d22bed9e99edf0ed384ddbdfe3a9c1a1/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /home/tyler/.gradle/caches/transforms-3/d22bed9e99edf0ed384ddbdfe3a9c1a1/transformed/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.12.2] /home/tyler/.gradle/caches/transforms-3/4a2eecbb58a7edac4a83d07d26a5edb2/transformed/jetified-exoplayer-ui-2.12.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-ui:2.12.2] /home/tyler/.gradle/caches/transforms-3/4a2eecbb58a7edac4a83d07d26a5edb2/transformed/jetified-exoplayer-ui-2.12.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/tyler/.gradle/caches/transforms-3/c2ce425b5b39c9dec47e9f75905fef4e/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /home/tyler/.gradle/caches/transforms-3/c2ce425b5b39c9dec47e9f75905fef4e/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /home/tyler/.gradle/caches/transforms-3/9891697fb8e0d8fc6d55dfe2c550e390/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /home/tyler/.gradle/caches/transforms-3/9891697fb8e0d8fc6d55dfe2c550e390/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/tyler/.gradle/caches/transforms-3/bc8b05aadeacdb3bc14004a92df0f8d7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /home/tyler/.gradle/caches/transforms-3/bc8b05aadeacdb3bc14004a92df0f8d7/transformed/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/tyler/.gradle/caches/transforms-3/effb86755cb35b85db43a1b29fad8984/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /home/tyler/.gradle/caches/transforms-3/effb86755cb35b85db43a1b29fad8984/transformed/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/tyler/.gradle/caches/transforms-3/fd38e84b510412808585f72d1b653217/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/tyler/.gradle/caches/transforms-3/fd38e84b510412808585f72d1b653217/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/tyler/.gradle/caches/transforms-3/092eda76bbf7f1fbd1be0a14373b93fa/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/tyler/.gradle/caches/transforms-3/092eda76bbf7f1fbd1be0a14373b93fa/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.1] /home/tyler/.gradle/caches/transforms-3/9e4afa80ab1650f7e6e18bb8ab3baa86/transformed/media-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.1] /home/tyler/.gradle/caches/transforms-3/9e4afa80ab1650f7e6e18bb8ab3baa86/transformed/media-1.0.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] /home/tyler/.gradle/caches/transforms-3/474d462dc62e32108fc7a77104058f42/transformed/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] /home/tyler/.gradle/caches/transforms-3/474d462dc62e32108fc7a77104058f42/transformed/core-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/tyler/.gradle/caches/transforms-3/649352a269038789cef58bd8ce890521/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/tyler/.gradle/caches/transforms-3/649352a269038789cef58bd8ce890521/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.12.2] /home/tyler/.gradle/caches/transforms-3/e05c9d6682ff4313dcc5d6ba3aa2dbcc/transformed/jetified-exoplayer-dash-2.12.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-dash:2.12.2] /home/tyler/.gradle/caches/transforms-3/e05c9d6682ff4313dcc5d6ba3aa2dbcc/transformed/jetified-exoplayer-dash-2.12.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.12.2] /home/tyler/.gradle/caches/transforms-3/0c065de50848d728faca372b42a81cf2/transformed/jetified-exoplayer-hls-2.12.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-hls:2.12.2] /home/tyler/.gradle/caches/transforms-3/0c065de50848d728faca372b42a81cf2/transformed/jetified-exoplayer-hls-2.12.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.12.2] /home/tyler/.gradle/caches/transforms-3/5de3c293b68911c829c8189c8aec0b2c/transformed/jetified-exoplayer-smoothstreaming-2.12.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-smoothstreaming:2.12.2] /home/tyler/.gradle/caches/transforms-3/5de3c293b68911c829c8189c8aec0b2c/transformed/jetified-exoplayer-smoothstreaming-2.12.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.2] /home/tyler/.gradle/caches/transforms-3/357256439c1811bb0fd9063dfed02f62/transformed/jetified-exoplayer-core-2.12.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-core:2.12.2] /home/tyler/.gradle/caches/transforms-3/357256439c1811bb0fd9063dfed02f62/transformed/jetified-exoplayer-core-2.12.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/tyler/.gradle/caches/transforms-3/b03a0e6d9548fd56ebf0a2b3f6cfb1da/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /home/tyler/.gradle/caches/transforms-3/b03a0e6d9548fd56ebf0a2b3f6cfb1da/transformed/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/tyler/.gradle/caches/transforms-3/9d4cf25347f6a53d0d3cd9a3f9d19b60/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] /home/tyler/.gradle/caches/transforms-3/9d4cf25347f6a53d0d3cd9a3f9d19b60/transformed/jetified-lifecycle-viewmodel-savedstate-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/tyler/.gradle/caches/transforms-3/5fd7089bad3adf093b8844fabefca69f/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] /home/tyler/.gradle/caches/transforms-3/5fd7089bad3adf093b8844fabefca69f/transformed/lifecycle-viewmodel-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/tyler/.gradle/caches/transforms-3/d70479a204ebc4d968585f1342e57598/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] /home/tyler/.gradle/caches/transforms-3/d70479a204ebc4d968585f1342e57598/transformed/jetified-savedstate-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/tyler/.gradle/caches/transforms-3/6bcbd6e8ae404a67131fcf07809c8106/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/tyler/.gradle/caches/transforms-3/6bcbd6e8ae404a67131fcf07809c8106/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.2] /home/tyler/.gradle/caches/transforms-3/539c93f3d2eca4040677ad38f5c02964/transformed/jetified-exoplayer-extractor-2.12.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-extractor:2.12.2] /home/tyler/.gradle/caches/transforms-3/539c93f3d2eca4040677ad38f5c02964/transformed/jetified-exoplayer-extractor-2.12.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.2] /home/tyler/.gradle/caches/transforms-3/21dc053d2bbf2e7332cdd35425ba758f/transformed/jetified-exoplayer-common-2.12.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.2] /home/tyler/.gradle/caches/transforms-3/21dc053d2bbf2e7332cdd35425ba758f/transformed/jetified-exoplayer-common-2.12.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/tyler/.gradle/caches/transforms-3/69e5240ca6bc8233b4037a217cd1599b/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] /home/tyler/.gradle/caches/transforms-3/69e5240ca6bc8233b4037a217cd1599b/transformed/lifecycle-runtime-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/tyler/.gradle/caches/transforms-3/72e6b0ec47b03602f4eb5550ebcc17ef/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/tyler/.gradle/caches/transforms-3/72e6b0ec47b03602f4eb5550ebcc17ef/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/tyler/.gradle/caches/transforms-3/1d85c27981eb8be12cc5e2ff97a1d179/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /home/tyler/.gradle/caches/transforms-3/1d85c27981eb8be12cc5e2ff97a1d179/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/tyler/.gradle/caches/transforms-3/e4d3866fb4e24293263abe03a56eeaee/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] /home/tyler/.gradle/caches/transforms-3/e4d3866fb4e24293263abe03a56eeaee/transformed/lifecycle-livedata-core-2.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/tyler/.gradle/caches/transforms-3/4650babcc572a4f48194ac31d4b3dd5d/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /home/tyler/.gradle/caches/transforms-3/4650babcc572a4f48194ac31d4b3dd5d/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/tyler/.gradle/caches/transforms-3/f9e1569d9db427d6481fff2e6efb5ca9/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /home/tyler/.gradle/caches/transforms-3/f9e1569d9db427d6481fff2e6efb5ca9/transformed/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/tyler/.gradle/caches/transforms-3/691c126b165e49475025ccae46194395/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /home/tyler/.gradle/caches/transforms-3/691c126b165e49475025ccae46194395/transformed/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/tyler/.gradle/caches/transforms-3/cf799ce90b73e48775bcfa2d557dcac1/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /home/tyler/.gradle/caches/transforms-3/cf799ce90b73e48775bcfa2d557dcac1/transformed/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/tyler/.gradle/caches/transforms-3/06d5ea1be41d0c7d557e0c5cb0a13e2f/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /home/tyler/.gradle/caches/transforms-3/06d5ea1be41d0c7d557e0c5cb0a13e2f/transformed/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml
+INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml
+		ADDED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml
+		INJECTED from /home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml
+activity#pub.devrel.easypermissions.AppSettingsDialogHolderActivity
+ADDED from [pub.devrel:easypermissions:3.0.0] /home/tyler/.gradle/caches/transforms-3/c7417efa72a1ed499e8a91d748849797/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
+	android:label
+		ADDED from [pub.devrel:easypermissions:3.0.0] /home/tyler/.gradle/caches/transforms-3/c7417efa72a1ed499e8a91d748849797/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:15:13-29
+	android:exported
+		ADDED from [pub.devrel:easypermissions:3.0.0] /home/tyler/.gradle/caches/transforms-3/c7417efa72a1ed499e8a91d748849797/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:14:13-37
+	android:theme
+		ADDED from [pub.devrel:easypermissions:3.0.0] /home/tyler/.gradle/caches/transforms-3/c7417efa72a1ed499e8a91d748849797/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:16:13-63
+	android:name
+		ADDED from [pub.devrel:easypermissions:3.0.0] /home/tyler/.gradle/caches/transforms-3/c7417efa72a1ed499e8a91d748849797/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:13:13-86
+activity#lib.folderpicker.FolderPicker
+ADDED from [lib.kashif:folderpicker:2.4] /home/tyler/.gradle/caches/transforms-3/35e68dcc6516b5fb40ba0a7d9e346804/transformed/jetified-folderpicker-2.4/AndroidManifest.xml:15:9-17:52
+	android:screenOrientation
+		ADDED from [lib.kashif:folderpicker:2.4] /home/tyler/.gradle/caches/transforms-3/35e68dcc6516b5fb40ba0a7d9e346804/transformed/jetified-folderpicker-2.4/AndroidManifest.xml:17:13-49
+	android:name
+		ADDED from [lib.kashif:folderpicker:2.4] /home/tyler/.gradle/caches/transforms-3/35e68dcc6516b5fb40ba0a7d9e346804/transformed/jetified-folderpicker-2.4/AndroidManifest.xml:16:13-57
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.exoplayer:exoplayer-core:2.12.2] /home/tyler/.gradle/caches/transforms-3/357256439c1811bb0fd9063dfed02f62/transformed/jetified-exoplayer-core-2.12.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.2] /home/tyler/.gradle/caches/transforms-3/21dc053d2bbf2e7332cdd35425ba758f/transformed/jetified-exoplayer-common-2.12.2/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.exoplayer:exoplayer-common:2.12.2] /home/tyler/.gradle/caches/transforms-3/21dc053d2bbf2e7332cdd35425ba758f/transformed/jetified-exoplayer-common-2.12.2/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.android.exoplayer:exoplayer-core:2.12.2] /home/tyler/.gradle/caches/transforms-3/357256439c1811bb0fd9063dfed02f62/transformed/jetified-exoplayer-core-2.12.2/AndroidManifest.xml:24:22-76

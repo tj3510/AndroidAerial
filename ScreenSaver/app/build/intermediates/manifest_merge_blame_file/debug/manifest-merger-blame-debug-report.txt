@@ -1,0 +1,129 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.moaapps.screensaver"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:5:5-67
+11-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:6:5-80
+12-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:7:5-81
+13-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+14-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:9:5-82
+14-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:9:22-79
+15
+16    <uses-feature
+16-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:11:5-13:36
+17        android:name="android.hardware.touchscreen"
+17-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:12:9-52
+18        android:required="false" />
+18-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:13:9-33
+19    <uses-feature
+19-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:14:5-16:35
+20        android:name="android.software.leanback"
+20-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:15:9-49
+21        android:required="true" />
+21-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:16:9-32
+22
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->[com.google.android.exoplayer:exoplayer-core:2.12.2] /home/tyler/.gradle/caches/transforms-3/357256439c1811bb0fd9063dfed02f62/transformed/jetified-exoplayer-core-2.12.2/AndroidManifest.xml:24:5-79
+23-->[com.google.android.exoplayer:exoplayer-core:2.12.2] /home/tyler/.gradle/caches/transforms-3/357256439c1811bb0fd9063dfed02f62/transformed/jetified-exoplayer-core-2.12.2/AndroidManifest.xml:24:22-76
+24
+25    <application
+25-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:18:5-50:19
+26        android:allowBackup="true"
+26-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:19:9-35
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.3.2] /home/tyler/.gradle/caches/transforms-3/474d462dc62e32108fc7a77104058f42/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
+28        android:banner="@drawable/file_icon"
+28-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:29:9-45
+29        android:dataExtractionRules="@xml/data_extraction_rules"
+29-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:27:9-65
+30        android:debuggable="true"
+31        android:exported="true"
+31-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:24:9-32
+32        android:icon="@mipmap/ic_launcher"
+32-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:20:9-43
+33        android:label="@string/app_name"
+33-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:21:9-41
+34        android:supportsRtl="true"
+34-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:22:9-35
+35        android:testOnly="true"
+36        android:theme="@style/Theme.ScreenSaver"
+36-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:25:9-49
+37        android:usesCleartextTraffic="true" >
+37-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:23:9-44
+38        <activity
+38-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:30:9-39:20
+39            android:name="com.moaapps.screensaver.MainActivity"
+39-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:31:13-41
+40            android:exported="true"
+40-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:32:13-36
+41            android:screenOrientation="landscape"
+41-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:33:13-50
+42            android:theme="@style/Theme.ScreenSaver" >
+42-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:34:13-53
+43            <intent-filter>
+43-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:35:13-38:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:36:17-69
+44-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:36:25-66
+45
+46                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+46-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:37:17-86
+46-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:37:27-83
+47            </intent-filter>
+48        </activity>
+49
+50        <service
+50-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:41:9-49:19
+51            android:name="com.moaapps.screensaver.ScreenSaverService"
+51-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:41:18-52
+52            android:exported="true"
+52-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:42:13-36
+53            android:label="Android Aerial"
+53-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:43:13-43
+54            android:permission="android.permission.BIND_DREAM_SERVICE" >
+54-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:44:13-71
+55            <intent-filter>
+55-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:45:13-48:29
+56                <action android:name="android.service.dreams.DreamService" />
+56-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:46:17-78
+56-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:46:25-75
+57
+58                <category android:name="android.intent.category.DEFAULT" />
+58-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:47:17-76
+58-->/home/tyler/Documents/Coding Folder/Business/AndroidAerial/ScreenSaver/app/src/main/AndroidManifest.xml:47:27-73
+59            </intent-filter>
+60        </service>
+61
+62        <activity
+62-->[pub.devrel:easypermissions:3.0.0] /home/tyler/.gradle/caches/transforms-3/c7417efa72a1ed499e8a91d748849797/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:12:9-16:66
+63            android:name="pub.devrel.easypermissions.AppSettingsDialogHolderActivity"
+63-->[pub.devrel:easypermissions:3.0.0] /home/tyler/.gradle/caches/transforms-3/c7417efa72a1ed499e8a91d748849797/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:13:13-86
+64            android:exported="false"
+64-->[pub.devrel:easypermissions:3.0.0] /home/tyler/.gradle/caches/transforms-3/c7417efa72a1ed499e8a91d748849797/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:14:13-37
+65            android:label=""
+65-->[pub.devrel:easypermissions:3.0.0] /home/tyler/.gradle/caches/transforms-3/c7417efa72a1ed499e8a91d748849797/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:15:13-29
+66            android:theme="@style/EasyPermissions.Transparent" />
+66-->[pub.devrel:easypermissions:3.0.0] /home/tyler/.gradle/caches/transforms-3/c7417efa72a1ed499e8a91d748849797/transformed/jetified-easypermissions-3.0.0/AndroidManifest.xml:16:13-63
+67        <activity
+67-->[lib.kashif:folderpicker:2.4] /home/tyler/.gradle/caches/transforms-3/35e68dcc6516b5fb40ba0a7d9e346804/transformed/jetified-folderpicker-2.4/AndroidManifest.xml:15:9-17:52
+68            android:name="lib.folderpicker.FolderPicker"
+68-->[lib.kashif:folderpicker:2.4] /home/tyler/.gradle/caches/transforms-3/35e68dcc6516b5fb40ba0a7d9e346804/transformed/jetified-folderpicker-2.4/AndroidManifest.xml:16:13-57
+69            android:screenOrientation="portrait" />
+69-->[lib.kashif:folderpicker:2.4] /home/tyler/.gradle/caches/transforms-3/35e68dcc6516b5fb40ba0a7d9e346804/transformed/jetified-folderpicker-2.4/AndroidManifest.xml:17:13-49
+70    </application>
+71
+72</manifest>

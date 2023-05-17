@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="20dp">
+
+
+    <TextView
+        android:id="@+id/current_dir_folder_content"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center|top"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="Folder's Files"
+        android:layout_weight="0.1"/>
+
+
+
+    <TextView
+        android:id="@+id/no_files_folder_content"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:text="No Files In Directory"
+        android:visibility="gone"
+        android:layout_weight="0.9"/>
+
+    <ScrollView
+        android:id="@+id/content_scroll_view_folder_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9">
+
+        <LinearLayout
+            android:id="@+id/folder_content_holder"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

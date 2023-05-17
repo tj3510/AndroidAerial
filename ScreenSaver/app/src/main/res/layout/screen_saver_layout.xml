@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
@@ -17,7 +17,8 @@
         android:textSize="25sp"
         android:textColor="#fff"
         android:visibility="gone"
-        tools:visibility="visible"/>
+        tools:visibility="visible"
+        android:layout_gravity="center"/>
 
 
     <com.google.android.exoplayer2.ui.PlayerView
@@ -25,4 +26,35 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:use_controller="false"/>
-</RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/textClock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:orientation="vertical"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp">
+
+        <TextClock
+            android:id="@+id/textClockTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:format12Hour="hh:mm a"
+            android:textSize="35sp"
+            android:layout_marginBottom="10dp" />
+
+        <TextClock
+            android:id="@+id/textClockDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:format12Hour="EEEE, MMMM dd"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

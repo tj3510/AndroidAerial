@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <dimen name="file_name_panel_icon_width">30dp</dimen>
+    <dimen name="file_name_panel_icon_height">55dp</dimen>
+
+</resources>

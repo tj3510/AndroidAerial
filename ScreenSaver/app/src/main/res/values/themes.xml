@@ -1,4 +1,26 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
 
-    <style name="Theme.ScreenSaver" parent="@style/Theme.Leanback" />
+    <style name="Theme.ScreenSaver" parent="@style/Theme.AppCompat">
+        <item name="android:textViewStyle">@style/RobotoTextViewStyle</item>
+        <item name="android:buttonStyle">@style/button</item>
+    </style>
+
+    <style name="RobotoTextViewStyle" parent="android:Widget.TextView">
+        <item name="android:fontFamily">@font/lato</item>
+    </style>
+
+
+    <style name="button" parent="@android:style/Widget.Button">
+        <item name="android:gravity">center_vertical|center_horizontal</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:paddingHorizontal" tools:targetApi="o">15dp</item>
+        <item name="android:paddingVertical" tools:targetApi="o">5dp</item>
+        <item name="android:background">@drawable/button_background</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+
 </resources>

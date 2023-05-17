@@ -5,4 +5,18 @@
     <color name="search_opaque">#ffaa3f</color>
     <color name="selected_background">#ffaa3f</color>
     <color name="default_background">#3d3d3d</color>
+
+    <color name="file_name_panel_background_focused">#7C7C7C</color>
+    <color name="file_name_panel_background_unfocused">#4D4D4D</color>
+
+    <color name="file_name_panel_primary_text">#E3E3E3</color>
+    <color name="file_name_panel_secondary_text">#CACACA</color>
+
+    <color name="button_up">#919191</color>
+    <color name="button_focused">#717171</color>
+    <color name="button_down">#474747</color>
+
+
+
+
 </resources>

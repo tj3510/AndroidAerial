@@ -1,31 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main_browse_fragment"
+    android:id="@+id/main_activity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     tools:deviceIds="tv"
-    android:background="#fff"
-    tools:ignore="MergeRootFrame">
+    android:background="#494949"
+    tools:ignore="MergeRootFrame"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/file_selecter_fragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"/>
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/folder_content_fragment"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"/>
 
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:id="@+id/directory"
-        android:layout_centerInParent="true"
-        tools:text="Number"
-        android:textColor="#000"/>
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="10dp"
-        android:layout_below="@id/directory"
-        android:id="@+id/video_count"
-        android:layout_centerHorizontal="true"
-        tools:text="Number"
-        android:textColor="#000"/>
-</RelativeLayout>
+</LinearLayout>

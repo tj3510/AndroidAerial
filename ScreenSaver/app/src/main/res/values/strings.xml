@@ -16,4 +16,9 @@
     <!-- Error messages -->
     <string name="error_fragment_message">An error occurred</string>
     <string name="dismiss_error">Dismiss</string>
+
+
+<!--    File Panel Strings-->
+
+    <string name="folder">Dismiss</string>
 </resources>

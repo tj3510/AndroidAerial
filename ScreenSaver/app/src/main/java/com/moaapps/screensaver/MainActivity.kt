@@ -1,68 +1,75 @@
 package com.moaapps.screensaver
 
-import android.Manifest
-import android.app.Activity
-import android.content.Intent
-import android.os.Bundle
-import android.util.Log
-import android.widget.TextView
-
-import android.content.ActivityNotFoundException
 import android.os.Build
-import android.os.Environment
-import android.os.Environment.getExternalStorageDirectory
-import android.view.View
+import android.os.Bundle
+import android.view.KeyEvent
+import android.widget.*
 import androidx.annotation.RequiresApi
-import androidx.core.app.ActivityCompat.startActivityForResult
-import java.io.File
-import androidx.core.app.ActivityCompat.startActivityForResult
-import pub.devrel.easypermissions.EasyPermissions
-import androidx.core.content.ContextCompat
+import androidx.appcompat.app.AppCompatActivity
+import androidx.fragment.app.add
+import androidx.fragment.app.commit
 
 
-
-
-
-class MainActivity : Activity() {
-
-    private val TAG: String = MainActivity::class.java.getName()
+class MainActivity : AppCompatActivity(R.layout.activity_main) {
 
     @RequiresApi(Build.VERSION_CODES.R)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
 
-
-
-        if(EasyPermissions.hasPermissions(this, Manifest.permission.MANAGE_EXTERNAL_STORAGE)){
-            val file = File(Environment.getExternalStorageDirectory(),"Screensaver")
-            Log.d("TAG", "onCreate: ${file.absolutePath}")
-            findViewById<TextView>(R.id.directory).text = "Selected Folder: ${file.absolutePath}"
-            if (file.exists() && file.isDirectory){
-                val filesList = ArrayList<File>()
-                for (file in file.listFiles()){
-                    if (file != null && file.absolutePath.endsWith("mov")){
-                        filesList.add(file)
-                    }
-                }
-                findViewById<TextView>(R.id.video_count).text = "${filesList.size} files found in the directory"
-            }else{
-                findViewById<TextView>(R.id.directory).text = "Folder not found"
+        if (savedInstanceState == null) {
+            supportFragmentManager.commit {
+                setReorderingAllowed(true)
+                add<SelectorFragment>(R.id.file_selecter_fragment)
+                add<ContentFragment>(R.id.folder_content_fragment)
             }
-        }else{
-            EasyPermissions.requestPermissions(this, "We need to access storage", 123, Manifest.permission.MANAGE_EXTERNAL_STORAGE)
+        }
+    }
+
+
+    @RequiresApi(Build.VERSION_CODES.R)
+    override fun dispatchKeyEvent(event: KeyEvent): Boolean {
+
+        try {
+//            val rEvent = Tools.initKeyEvents(this, showingVideo, event, exoPlayer, this)
+            val rEvent = false
+
+            if(rEvent){
+                return rEvent
+            } else {
+                return super.dispatchKeyEvent(event)
+            }
+        }catch (e: java.lang.Exception){
+            return super.dispatchKeyEvent(event)
         }
 
     }
 
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
-        if (requestCode == 9999 && resultCode == RESULT_OK){
-            val folderLocation = data?.extras!!.getString("data")
-            Log.d("TAG", "onActivityResult: $folderLocation")
-            findViewById<TextView>(R.id.directory).text = folderLocation
+    @RequiresApi(Build.VERSION_CODES.R)
+    fun updateContentFragment(canResetContent: Boolean){
+        val frag = supportFragmentManager.findFragmentById(R.id.folder_content_fragment) as ContentFragment
+
+        if(canResetContent) {
+            frag.resetContent()
         }
+
+        frag.updateDirTextView(true)
+        frag.createFilePanels(true)
     }
+
+    @RequiresApi(Build.VERSION_CODES.R)
+    fun updateSelectorFragment(canUpdateSelector: Boolean){
+        val frag = supportFragmentManager.findFragmentById(R.id.file_selecter_fragment) as SelectorFragment
+
+        if(canUpdateSelector){
+            frag.updateSelectorDir()
+        }
+
+        frag.updateDirTextView(false)
+        frag.createFilePanels(false)
+    }
+
+
+
 
 
 }

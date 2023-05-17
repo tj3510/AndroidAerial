@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.moaapps.screensaver.app-mergeDebugResources-17:/values-w820dp-v13/values-w820dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/tyler/.gradle/caches/transforms-3/35e68dcc6516b5fb40ba0a7d9e346804/transformed/jetified-folderpicker-2.4/res/values-w820dp-v13/values-w820dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "57",
+                        "endOffsets": "108"
+                    }
+                }
+            ]
+        }
+    ]
+}
