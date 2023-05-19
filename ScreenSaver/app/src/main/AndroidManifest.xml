@@ -2,15 +2,22 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="29" />
+
+
+
+
 
     <uses-feature
         android:name="android.hardware.touchscreen"
         android:required="false" />
+
     <uses-feature
         android:name="android.software.leanback"
         android:required="true" />
@@ -24,11 +31,12 @@
         android:exported="true"
         android:theme="@style/Theme.ScreenSaver"
         tools:targetApi="31"
+        android:requestLegacyExternalStorage="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         tools:ignore="DataExtractionRules"
-        android:banner="@drawable/file_icon">
+        android:banner="@mipmap/ic_launcher">
         <activity
-            android:name=".MainActivity"
+            android:name=".Activities.MainActivity"
             android:exported="true"
             android:screenOrientation="landscape"
             android:theme="@style/Theme.ScreenSaver">
@@ -38,7 +46,7 @@
             </intent-filter>
         </activity>
 
-        <service android:name=".ScreenSaverService"
+        <service android:name=".Services.ScreenSaverService"
             android:exported="true"
             android:label="Android Aerial"
             android:permission="android.permission.BIND_DREAM_SERVICE">
